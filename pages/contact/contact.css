@@ -1,0 +1,75 @@
+@import "../../css/globale.css";
+.global-form__container {
+  display: flex;
+  gap: 10px;
+}
+.global-form__form__wrapper {
+  width: 100%;
+  max-width: 696px;
+}
+.global-form__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.global-form__title {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+}
+.global-form__form__wrapper__top {
+  display: flex;
+  gap: 10px;
+}
+.global-form__input {
+  display: block;
+  width: 100%;
+  border: 1px solid #00000033;
+  padding: 18px 20px;
+  border-radius: 10px;
+}
+.global-form__input::placeholder {
+  color: #000000;
+  opacity: 50%;
+}
+.global-form__input_textarea {
+  height: 180px;
+  resize: none;
+  margin-bottom: 20px;
+}
+.global-form__btn {
+  align-self: flex-end;
+  background-color: #7297ef;
+  color: #ffffff;
+  border: 0;
+  margin-bottom: 100px;
+}
+.global-form__description {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  padding: 40px 25px;
+  height: 310px;
+  width: 494px;
+  margin-top: 55px;
+}
+.global-form__description__list {
+}
+.global-form__description__item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.global-form__description__item :not(:first-child) {
+}
+.global-form__description__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  margin-bottom: 7px;
+}
+.global-form__description__link {
+  color: #000000;
+  line-height: 18.96px;
+  font-style: normal;
+}
