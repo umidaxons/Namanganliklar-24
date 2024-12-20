@@ -2,22 +2,17 @@
 
 /* features start */
 
-.features {
-}
 .features__container {
   display: flex;
 }
 
-.features__content {
-}
 .features__content__link {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 30px;
 }
-.features__content__link__img {
-}
+
 .features__content__link__description {
   color: #5e5f61;
   font-size: 14px;
@@ -46,8 +41,7 @@
 
 /* features end */
 /* services start */
-.services {
-}
+
 .services__container {
   margin-bottom: 100px;
 }
