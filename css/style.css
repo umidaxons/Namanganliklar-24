@@ -77,6 +77,67 @@
   border: 0;
   color: #ffffff;
   padding: 13px 30px;
+  transition: 0.5s;
+}
+.cta__btn:hover {
+  opacity: 60%;
+}
+
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 850px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  z-index: 100;
+}
+.close__btn {
+  display: flex;
+
+  justify-self: flex-end;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 26px;
+}
+.close__btn__img {
+}
+.cta__bady {
+}
+.cta__modal__title {
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  line-height: 34px;
+  width: 100%;
+  max-width: 512px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.cta__modal__btn {
+  display: flex;
+  justify-self: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  background-color: #f78b3b;
+  border: 0;
+  color: #ffffff;
+  padding: 13px 30px;
+}
+.hidden {
+  display: none;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 /* Cta end */

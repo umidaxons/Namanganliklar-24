@@ -273,7 +273,24 @@
             </h2>
           </div>
           <div class="cta__button">
-            <button class="cta__btn btn">Включит</button>
+            <button class="cta__btn btn" id="cta__btn">Включит</button>
+            <div class="modal hidden" id="modal">
+              <button class="close__btn" id="close__btn">
+                <img
+                  class="close__btn__img"
+                  src="./img/cros.svg"
+                  alt="cros"
+                  width="24"
+                  height="24"
+                />
+              </button>
+              <div class="cta__bady">
+                <h2 class="cta__modal__title">
+                  Хотите быть в курсе свежих новостей? Включите уведомления!
+                </h2>
+                <button class="cta__modal__btn btn">Включит</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -570,5 +587,7 @@
       </div>
     </footer>
     <!-- footer end -->
+    <div class="overlay hidden" id="overlay"></div>
+    <script src="app.js"></script>
   </body>
 </html>
