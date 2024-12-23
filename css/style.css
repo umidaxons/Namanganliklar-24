@@ -103,6 +103,8 @@
   margin-bottom: 26px;
 }
 .close__btn__img {
+  border: 0;
+  background: 0;
 }
 .cta__bady {
 }
